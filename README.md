@@ -28,7 +28,7 @@ To effectively use Mongoify, ensure the following requirements are met:
 Install Mongoify using Composer:
 
 ```bash
-composer maltertech/mongoify
+composer require maltertech/mongoify
 ```
 
 ## Usage
