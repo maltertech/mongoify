@@ -114,7 +114,7 @@ class Mongoify
                 // check if the string value is a valid date
                 if ($unixTime !== false) {
                     // it's a valid date, convert it to MongoDB\BSON\UTCDateTime
-                    $array[$key] = new MongoDB\BSON\UTCDateTime($unixTime * 1000);
+                    $array[$key] = new \MongoDB\BSON\UTCDateTime($unixTime * 1000);
                 }
             }
         }
