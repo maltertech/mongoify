@@ -1,0 +1,20 @@
+{
+    "name": "maltertech/mongoify",
+    "description": "Mongoify allows you to easily handle Shopify webhook requests and store them to a MongoDB database",
+    "type": "library",
+    "require": {
+        "mongodb/mongodb": "^1.11"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maltertech\\Mongoify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zach Malter",
+            "email": "zach@maltertech.com"
+        }
+    ]
+}
