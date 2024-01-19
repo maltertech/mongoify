@@ -3,12 +3,15 @@
     "description": "Mongoify allows you to easily handle Shopify webhook requests and store them to a MongoDB database",
     "type": "library",
     "require": {
-        "mongodb/mongodb": "^1.11"
+        "php": ">=7.0",
+        "mongodb/mongodb": "^1.11",
+        "ext-json": "*",
+        "ext-mongodb": "*"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Maltertech\\Mongoify\\": "src/"
+            "Mongoify\\": "src/Mongoify/"
         }
     },
     "authors": [
