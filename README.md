@@ -60,7 +60,7 @@ Mongoify provides several methods for accessing data:
 
 ## Error Handling
 
-Mongoify throws `ErrorException` for any processing issues, allowing for robust error handling in your application.
+Mongoify throws `ErrorException` for any processing issues.
 
 ## Support
 
