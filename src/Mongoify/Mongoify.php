@@ -1,9 +1,5 @@
 <?php
 
-/**
- * Mongoify is a simplistic PHP package designed to seamlessly integrate between Shopify's webhook system and MongoDB.
- */
-
 namespace Mongoify;
 
 use ErrorException;
