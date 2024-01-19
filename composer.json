@@ -1,6 +1,6 @@
 {
     "name": "maltertech/mongoify",
-    "description": "Mongoify allows you to easily handle Shopify webhook requests and store them to a MongoDB database",
+    "description": "Mongoify is a simplistic PHP package designed to seamlessly integrate between Shopify's webhook system and MongoDB.",
     "type": "library",
     "require": {
         "php": ">=7.0",

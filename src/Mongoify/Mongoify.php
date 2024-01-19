@@ -1,8 +1,7 @@
 <?php
 
 /**
- * Class Mongoify
- * Handles synchronization with Shopify webhooks, processing webhook data, and performing database updates and deletions.
+ * Mongoify is a simplistic PHP package designed to seamlessly integrate between Shopify's webhook system and MongoDB.
  */
 
 namespace Mongoify;
