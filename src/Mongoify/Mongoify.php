@@ -61,6 +61,11 @@ class Mongoify
         // default key for updating documents
         $key = "id";
 
+        // customer_payment_methods doesn't have an "id" but a token
+        if ($this->collection === "customer_payment_methods") {
+            $key = "token";
+        }
+
         // method to call is based on the topic
         if (in_array($this->getAction(), ["create", "update", "updated", "success", "challenged", "failure"])) {
             $this->update($key);
